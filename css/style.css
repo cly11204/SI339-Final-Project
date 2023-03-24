@@ -1,0 +1,102 @@
+html {
+    background-image: radial-gradient( #D75286,#FE806E, #FDF798);
+}
+
+body{
+    font-family: DejaVu Sans Mono, sans-serif, helvetica;
+    margin: 30px;
+}
+
+nav {
+    padding: 30px;
+    text-align: right;
+}
+
+nav li{
+    display: inline;
+    padding-right: 30px;
+    font-size: 40px;
+}
+
+nav a{ 
+    color: black; 
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.active a{ 
+    text-align: left;
+}
+
+.background-text-block{
+    display: grid; 
+    grid-template-columns: auto auto auto auto auto ;
+    grid-template-rows: repeat(8, 100px);
+}
+
+.background-text-block h1{
+    grid-column: 1/span 1;
+    grid-row: 3/4;
+    color: black;
+    font-size: 100px;
+    text-align: left;
+}
+
+.background-text-block h2{
+    grid-column: 1/span 1;
+    grid-row: 4/5;
+    color: black;
+    font-size: 100px;
+    text-align: right;
+}
+
+.container{
+    background-color: white;
+}
+
+.overview{
+    display:grid; 
+    grid-template-columns: auto repeat(5, 100px);
+    grid-template-rows:  1fr repeat(7, 60px);;
+}
+
+h2{ 
+    font-size: 80px;
+    grid-column: 1/span 1;
+    text-transform: uppercase;
+    padding: 80px 20px 10px 80px; 
+    margin: 20px;
+    text-align: left;
+
+}
+
+.overview h3{ 
+    font-size: 40px; 
+    grid-column: 1;
+    padding: 10px 10px 10px 80px;
+    margin: 20px;
+    font-weight: 100;
+}
+
+.overview-text-block h2 > * { 
+    padding: 10px; 
+    margin: 20px;
+}
+
+.overview img{ 
+    grid-column: 2/span 1;
+}
+
+.overview-text-block h3{ 
+    font-size: 50px;
+    margin: 20px;
+    text-transform: uppercase;
+    padding: 40px 10px 10px 80px;
+}
+
+h4{
+    padding: 10px 10px 10px 80px;
+    margin: 20px; 
+    font-weight: 200;
+    font-size: 40px;
+}

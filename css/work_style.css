@@ -1,0 +1,29 @@
+
+.container1 { 
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.container1 img{
+    width: 100%;
+    padding: 100px 100px;
+
+}
+
+nav {
+    padding: 30px;
+    text-align: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav li{
+    display: inline;
+    padding-right: 30px;
+    font-size: 40px;
+}
+
+nav a{ 
+    color: black; 
+    font-weight: bold;
+    text-decoration: none;
+}
